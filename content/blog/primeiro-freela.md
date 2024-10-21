@@ -2,6 +2,11 @@
 title = 'Primeiro Freela'
 subtitle = 'Aprendizados'
 date = 2024-06-05T23:05:53-03:00
+author = 'Diego Reis'
+tags = [
+    "career",
+    "experiences",   
+]
 +++
 
 Esse é meu primeiro blog post, então se você está lendo isso, obrigado! A ideia

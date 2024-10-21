@@ -2,3 +2,30 @@ baseURL = 'https://blog.diegoreis.me/'
 languageCode = 'pt-br'
 title = 'No Silver Bullet'
 theme = 'hugo-simple'
+copyright = "© 2024 Diego Reis"
+
+enableRobotsTXT = true
+
+
+# https://github.com/gohugoio/hugo/issues/12152
+capitalizeListTitles = false
+
+# Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
+disableKinds = ["taxonomy"]
+# ignoreErrors = ["error-disable-taxonomy"]
+[taxonomies]
+tag = "tags"
+
+[permalinks]
+blog = "/:slugorfilename/"
+tags = "/blog/:slug"
+
+
+[[menu.main]]
+name = "Home"
+pageRef = "/"
+weight = 10
+[[menu.main]]
+name = "Blog"
+pageRef = "/blog"
+weight = 20
