@@ -5,15 +5,15 @@
     <link>http://localhost:1313/blog/career/</link>
     <description>Recent content on No Silver Bullet</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language>
+    <language>en</language>
     <copyright>© 2024 Diego Reis</copyright>
     <lastBuildDate>Wed, 05 Jun 2024 23:05:53 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/career/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Primeiro Freela</title>
-      <link>http://localhost:1313/primeiro-freela/</link>
+      <link>http://localhost:1313/first-freelance/</link>
       <pubDate>Wed, 05 Jun 2024 23:05:53 -0300</pubDate>
-      <guid>http://localhost:1313/primeiro-freela/</guid>
+      <guid>http://localhost:1313/first-freelance/</guid>
       <description>&lt;p&gt;Esse é meu primeiro blog post, então se você está lendo isso, obrigado! A ideia
 é fazer posts assim regularmente, documentando um pouco a minha experiência como
 estudante de Ciência da Computação entrando no mercado de trabalho. Mas vamos

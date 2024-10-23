@@ -4,8 +4,8 @@ subtitle = 'Aprendizados'
 date = 2024-06-05T23:05:53-03:00
 author = 'Diego Reis'
 tags = [
-    "career",
-    "experiences",   
+    "carreira",
+    "experiências",   
 ]
 +++
 
@@ -45,7 +45,7 @@ aparecer depois de uma data não estavam aparecendo. Simples não? Foram esses _
 
 Evidentemente não vou entrar nos detalhes que eu gostaria por que o código não é meu, mas basicamente
 o primeiro problema estava relacionado com a construção de um objeto de data, quebrei um pouco a cabeça mas foi relativamente
-tranquilo. O segundo foi _trickyer_, estava relacionada com a query que o back-end estava fazendo pra uma determinada rota. Agora
+tranquilo. O segundo foi _trickier_, estava relacionada com a query que o back-end estava fazendo pra uma determinada rota. Agora
 como cheguei neles? Onde acertei? E principalmente, onde errei?
 
 ## Aprendizados
@@ -59,20 +59,11 @@ outro dev. Fazer isso não é fácil - na verdade a dificuldade depende de vári
 de alguns dias até meses, eu não tinha esse tempo todo. Quando percebi que estava tentando entender o código de cada página ao invés de
 focar na página que apresentava o problema, tive que pivotar a abordagem. 
 
-Situações como essa, onde se tem uma task muito específica, requerem uma abordagem muito específica. O que na realidade é muito mais simples
+Tasks muito específicas, requerem abordagens muito específicas. O que na realidade é muito mais simples
 do que parece; você não precisa desenvolver algo novo ou refazer todo o código, só resolver aquele pequeno problema. O que nos leva ao próximo 
 aprendizado.
 
-## 2. Não tenha medo de novas stacks
-
-Como você pôde ver pelo meu background, nunca tinha trabalhado com nenhuma dessas tecnologias, mas independente delas: o protocolo HTTP é o mesmo,
-o modelo de _front-end -> back-end -> banco de dados_ é o mesmo, o modelo do Laravel de controllers, services, repositórios, interfaces não é 
-muito diferente do Nestjs ou do Spring boot. Enfim, tecnologias mainstream são bem mais parecidas do que se imagina.
-
-Dessa forma, se você aprendeu bem o problema que determinada ferramenta se propôs a resolver, você consegue entender as variações dessa ferramenta
-e as diferentes formas que elas resolvem o mesmo problema.
-
-## 3. Crie e teste hipóteses
+## 2. Crie e teste hipóteses
 
 Uma lição mais prática. O método científico[1] se aplica excepcionalmente bem em sessões de debug; por exemplo, o sistema apresenta um comportamento
 inesperado, após vasculhar logs, requisições, ou qualquer rastro que te dê algum indício deste comportamento, você:
@@ -88,18 +79,21 @@ você vai aprender algo novo, e não se esqueça:
 > "Eliminando o impossível, o que sobra, por mais improvável que seja, é a verdade."
                                                     -- Mr. Spock
 
+## 3. Não tenha medo de novas stacks
+
+Como você pôde ver pelo meu background, nunca tinha trabalhado com nenhuma dessas tecnologias, mas independente delas: o protocolo HTTP é o mesmo,
+o modelo de _front-end -> back-end -> banco de dados_ é o mesmo, o modelo do Laravel de controllers, services, repositórios, interfaces não é 
+muito diferente do Nestjs ou do Spring boot. Enfim, tecnologias mainstream são bem mais parecidas do que se imagina.
+
+Dessa forma, se você aprendeu bem o problema que determinada ferramenta se propôs a resolver, você consegue entender as variações dessa ferramenta
+e as diferentes formas que elas resolvem o mesmo problema.
+
 ## 4. Assuma riscos!
 
 Por fim, assuma riscos! Estou dizendo pra apostar no macaco no próximo jogo do bixo? Não! Ou pra emprestar dinheiro pro teu parente finalmente abrir
 sua loja de sal do himalaia? Muito menos. Estou dizendo que se colocar em situações em que não se tem muito a perder, mas muito a ganhar, sempre é
 vantajoso[2], mesmo que você pense que não está 100% preparado (só não me vá chamar o popó no ringue). Cada oportunidade que te tira da zona de conforto
 é uma oportunidade de ser melhor.
-
-# Conclusão
-
-Obrigado por ler até aqui. Espero que esta minha experiência tenha te ajudado de alguma forma. Se sim, sinta-se livre para compartilhar esse post :)
-Estou sempre a disposição pra trocar ideia. Até mais e obrigado pelos peixes.
-
 
 
 #### Notas

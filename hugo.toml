@@ -1,5 +1,5 @@
 baseURL = 'https://blog.diegoreis.me/'
-languageCode = 'pt-br'
+languageCode = 'pt-BR'
 title = 'No Silver Bullet'
 theme = 'hugo-simple'
 copyright = "© 2024 Diego Reis"
@@ -21,11 +21,29 @@ blog = "/:slugorfilename/"
 tags = "/blog/:slug"
 
 
-[[menu.main]]
+[languages]
+[languages.pt-br]
+contentDir = 'content/pt-br'
+disabled = false
+weight = 1
+[[languages.pt-br.menu.main]]
 name = "Home"
 pageRef = "/"
 weight = 10
-[[menu.main]]
+[[languages.pt-br.menu.main]]
 name = "Blog"
 pageRef = "/blog"
-weight = 20
+
+
+[languages.en]
+contentDir = 'content/en'
+disabled = false
+title = 'No Silver Bullet'
+weight = 0
+[[languages.en.menu.main]]
+name = "Home"
+pageRef = "/"
+weight = 10
+[[languages.en.menu.main]]
+name = "Blog"
+pageRef = "/blog"
