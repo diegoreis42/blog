@@ -12,4 +12,11 @@ The name of this blog comes from the excellent paper [_'No Silver Bullet—Essen
 
 My name is Diego Reis, I'm a Computer Science student at Itajubá Federal University and I currently work as a Junior back-end developer at a consulting firm. I'm very interested in ~almost~ any topic involving computing, I love helping other people, running in the late afternoon and trying new things.
 
+You can reach me on:
+
+- [X](https://x.com/el_yawd)
+- [Github](https://github.com/diegoreis42)
+- [Linkedin](https://www.linkedin.com/in/diegovarella/)
+  
+
 Since I'm very early in my career, more technical posts may be incomplete and/or contain small errors, so don't hesitate to suggest corrections and improvements.
