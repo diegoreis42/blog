@@ -15,7 +15,7 @@ Me chamo Diego Reis sou estudante de Ciência da Computação na federal de Itaj
 
 Você pode me encontrar no:
 
-- [X](https://x.com/el_yawd)
+- [ X (twitter) ](https://x.com/el_yawd)
 - [Github](https://github.com/diegoreis42)
 - [Linkedin](https://www.linkedin.com/in/diegovarella/)
 

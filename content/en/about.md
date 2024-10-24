@@ -14,7 +14,7 @@ My name is Diego Reis, I'm a Computer Science student at Itajubá Federal Univer
 
 You can reach me on:
 
-- [X](https://x.com/el_yawd)
+- [ X (twitter) ](https://x.com/el_yawd)
 - [Github](https://github.com/diegoreis42)
 - [Linkedin](https://www.linkedin.com/in/diegovarella/)
   
