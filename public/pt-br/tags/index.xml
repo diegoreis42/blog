@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on No Silver Bullet</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:1313/pt-br/tags/</link>
     <description>Recent content in Tags on No Silver Bullet</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>pt-br</language>
     <managingEditor>reisdiego144@gmail.com (Diego Reis)</managingEditor>
     <webMaster>reisdiego144@gmail.com (Diego Reis)</webMaster>
     <copyright>| © 2024 Diego Reis </copyright>
     <lastBuildDate>Wed, 05 Jun 2024 23:05:53 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/pt-br/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Career</title>
-      <link>http://localhost:1313/blog/career/</link>
+      <title>Carreira</title>
+      <link>http://localhost:1313/pt-br/blog/carreira/</link>
       <pubDate>Wed, 05 Jun 2024 23:05:53 -0300</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
-      <guid>http://localhost:1313/blog/career/</guid>
+      <guid>http://localhost:1313/pt-br/blog/carreira/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>Experiences</title>
-      <link>http://localhost:1313/blog/experiences/</link>
+      <title>Experiências</title>
+      <link>http://localhost:1313/pt-br/blog/experi%C3%AAncias/</link>
       <pubDate>Wed, 05 Jun 2024 23:05:53 -0300</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
-      <guid>http://localhost:1313/blog/experiences/</guid>
+      <guid>http://localhost:1313/pt-br/blog/experi%C3%AAncias/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

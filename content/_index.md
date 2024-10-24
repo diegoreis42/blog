@@ -1,5 +1,0 @@
----
-title: "No Silver Bullet"
----
-
-    

@@ -6,22 +6,17 @@
     <description>Recent content on No Silver Bullet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <copyright>© 2024 Diego Reis</copyright>
+    <managingEditor>reisdiego144@gmail.com (Diego Reis)</managingEditor>
+    <webMaster>reisdiego144@gmail.com (Diego Reis)</webMaster>
+    <copyright>| © 2024 Diego Reis </copyright>
     <lastBuildDate>Wed, 05 Jun 2024 23:05:53 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/pt-br/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Primeiro Freela</title>
       <link>http://localhost:1313/pt-br/primeiro-freela/</link>
-      <pubDate>Wed, 05 Jun 2024 23:05:53 -0300</pubDate>
+      <pubDate>Wed, 05 Jun 2024 23:05:53 -0300</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
       <guid>http://localhost:1313/pt-br/primeiro-freela/</guid>
-      <description>&lt;p&gt;Esse é meu primeiro blog post, então se você está lendo isso, obrigado! A ideia
-é fazer posts assim regularmente, documentando um pouco a minha experiência como
-estudante de Ciência da Computação entrando no mercado de trabalho. Mas vamos
-ao que interessa: como foi meu primeiro &lt;em&gt;&amp;lsquo;freela&amp;rsquo;&lt;/em&gt; e as lições que tive com ele.&lt;/p&gt;
-&lt;h2 id=&#34;definição-de-freela&#34;&gt;Definição de Freela&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Freela é todo trabalho remunerado, de escopo fechado, que quem paga e quem faz o serviço não possuem vínculo trabalhista&amp;rdquo;
-&amp;ndash; Eu&lt;/p&gt;</description>
+      <description>&lt;p&gt;Esse é meu primeiro blog post, então se você está lendo isso, obrigado! A ideia&#xA;é fazer posts assim regularmente, documentando um pouco a minha experiência como&#xA;estudante de Ciência da Computação entrando no mercado de trabalho. Mas vamos&#xA;ao que interessa: como foi meu primeiro &lt;em&gt;&amp;lsquo;freela&amp;rsquo;&lt;/em&gt; e as lições que tive com ele.&lt;/p&gt;&#xA;&lt;h2 id=&#34;definição-de-freela&#34;&gt;Definição de Freela&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Freela é todo trabalho remunerado, de escopo fechado, que quem paga e quem faz o serviço não possuem vínculo trabalhista&amp;rdquo;&#xA;&amp;ndash; Eu&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Esse é meu primeiro blog post, então se você está lendo isso, obrigado! A ideia
 é fazer posts assim regularmente, documentando um pouco a minha experiência como
 estudante de Ciência da Computação entrando no mercado de trabalho. Mas vamos
@@ -101,6 +96,22 @@ aquela vírgula no final da linha :)</p>
 <p>Para quem leu os livros do Taleb isso é o arroz com feijão da &ldquo;antifragilidade&rdquo;, recomendo qualquer livro do Nassim.</p>
 </li>
 </ol>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Sobre</title>
+      <link>http://localhost:1313/pt-br/sobre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
+      <guid>http://localhost:1313/pt-br/sobre/</guid>
+      <description>&lt;h2 id=&#34;sobre-o-nome&#34;&gt;Sobre o nome&lt;/h2&gt;&#xA;&lt;p&gt;O nome desse blog vêm do excelente paper do Fred Brooks &lt;a href=&#34;https://www.cs.dartmouth.edu/~cs50/Reading/NoSilverBullet.pdf&#34;&gt;&lt;em&gt;&amp;lsquo;No Silver Bullet—Essence and Accident in Software Engineering&amp;rsquo;&lt;/em&gt;&lt;/a&gt; que define o princípio de muitos conceitos que eu valorizo, sobretudo que se quisermos softwares melhores precisamos de desenvolvedores e pessoas melhores, nenhuma ferramenta vai fazer mágica.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Hence, although I strongly support the technology-transfer and curriculumdevelopment efforts now under way, I think the most important single effort we can mount is to develop ways to grow great designers.&amp;rdquo;                                         - Fred Brooks&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="sobre-o-nome">Sobre o nome</h2>
+<p>O nome desse blog vêm do excelente paper do Fred Brooks <a href="https://www.cs.dartmouth.edu/~cs50/Reading/NoSilverBullet.pdf"><em>&lsquo;No Silver Bullet—Essence and Accident in Software Engineering&rsquo;</em></a> que define o princípio de muitos conceitos que eu valorizo, sobretudo que se quisermos softwares melhores precisamos de desenvolvedores e pessoas melhores, nenhuma ferramenta vai fazer mágica.</p>
+<blockquote>
+<p>&ldquo;Hence, although I strongly support the technology-transfer and curriculumdevelopment efforts now under way, I think the most important single effort we can mount is to develop ways to grow great designers.&rdquo;                                         - Fred Brooks</p>
+</blockquote>
+<h2 id="sobre-mim">Sobre mim</h2>
+<p>Me chamo Diego Reis sou estudante de Ciência da Computação na federal de Itajubá e atualmente trabalho como desenvolvedor back-end JR em uma consultoria ai. Sou muito interessado por <del>quase</del> qualquer tópico que envolva computação, adoro ajudar outras pessoas, correr no final da tarde e tentar coisas novas.</p>
+<p>Como estou bem no início da minha carreira posts mais técnicos podem ser incompletos e/ou conterem pequenos erros, então não hesite em sugerir correções e melhorias.</p>
 ]]></content:encoded>
     </item>
   </channel>

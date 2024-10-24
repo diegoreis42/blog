@@ -6,23 +6,17 @@
     <description>Recent content on No Silver Bullet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 Diego Reis</copyright>
+    <managingEditor>reisdiego144@gmail.com (Diego Reis)</managingEditor>
+    <webMaster>reisdiego144@gmail.com (Diego Reis)</webMaster>
+    <copyright>| © 2024 Diego Reis </copyright>
     <lastBuildDate>Wed, 05 Jun 2024 23:05:53 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Freelance</title>
       <link>http://localhost:1313/first-freelance/</link>
-      <pubDate>Wed, 05 Jun 2024 23:05:53 -0300</pubDate>
+      <pubDate>Wed, 05 Jun 2024 23:05:53 -0300</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
       <guid>http://localhost:1313/first-freelance/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;This&amp;rsquo;s my first blog post, so if you&amp;rsquo;re reading this, thank you! The idea
-is to write regularly, documenting a bit about my experience as a Computer Science
-student getting into the job market.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Let&amp;rsquo;s get straight to the point: how my first freelance went and what lessons I learned.&lt;/p&gt;
-&lt;h2 id=&#34;freelance-definition&#34;&gt;Freelance Definition&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Freelance is all, closed-scope, paid work where there&amp;rsquo;s no employment relationship between the payer and the one getting the job done.&amp;rdquo;                          &amp;ndash; Me&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;This&amp;rsquo;s my first blog post, so if you&amp;rsquo;re reading this, thank you! The idea&#xA;is to write regularly, documenting a bit about my experience as a Computer Science&#xA;student getting into the job market.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s get straight to the point: how my first freelance went and what lessons I learned.&lt;/p&gt;&#xA;&lt;h2 id=&#34;freelance-definition&#34;&gt;Freelance Definition&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Freelance is all, closed-scope, paid work where there&amp;rsquo;s no employment relationship between the payer and the one getting the job done.&amp;rdquo;                          &amp;ndash; Me&lt;/p&gt;</description>
       <content:encoded><![CDATA[<blockquote>
 <p>This&rsquo;s my first blog post, so if you&rsquo;re reading this, thank you! The idea
 is to write regularly, documenting a bit about my experience as a Computer Science
@@ -92,6 +86,22 @@ you can understand variations of such tools, and the different was that these va
 <li>A powerful concept, even routine in programming, is the Ockahm&rsquo;s razor, that says: &ldquo;[&hellip;] The simplest explanation is usually the best one&rdquo;. So, before checking for reace conditions or deadlocks, certify about that semicolon on line 67 :)</li>
 <li>For those who read Taleb&rsquo;s books that&rsquo;s the bread and butter of <em>antifragility</em>, I recommend any of Nassim&rsquo;s book.</li>
 </ol>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h4 id=&#34;about-the-name&#34;&gt;About the name&lt;/h4&gt;&#xA;&lt;p&gt;The name of this blog comes from the excellent paper &lt;a href=&#34;https://www.cs.dartmouth.edu/~cs50/Reading/NoSilverBullet.pdf&#34;&gt;&lt;em&gt;&amp;lsquo;No Silver Bullet—Essence and Accident in Software Engineering&amp;rsquo;&lt;/em&gt;&lt;/a&gt; by Fred Brooks that defines the principle of many concepts that I value, especially that if we want better software we need better developers and people, no tool will do magic.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Hence, although I strongly support the technology-transfer and curriculumdevelopment efforts now under way, I think the most important single effort we can mount is to develop ways to grow great designers.&amp;rdquo; - Fred Brooks&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h4 id="about-the-name">About the name</h4>
+<p>The name of this blog comes from the excellent paper <a href="https://www.cs.dartmouth.edu/~cs50/Reading/NoSilverBullet.pdf"><em>&lsquo;No Silver Bullet—Essence and Accident in Software Engineering&rsquo;</em></a> by Fred Brooks that defines the principle of many concepts that I value, especially that if we want better software we need better developers and people, no tool will do magic.</p>
+<blockquote>
+<p>&ldquo;Hence, although I strongly support the technology-transfer and curriculumdevelopment efforts now under way, I think the most important single effort we can mount is to develop ways to grow great designers.&rdquo; - Fred Brooks</p>
+</blockquote>
+<h4 id="about-me">About me</h4>
+<p>My name is Diego Reis, I&rsquo;m a Computer Science student at Itajubá Federal University and I currently work as a Junior back-end developer at a consulting firm. I&rsquo;m very interested in <del>almost</del> any topic involving computing, I love helping other people, running in the late afternoon and trying new things.</p>
+<p>Since I&rsquo;m very early in my career, more technical posts may be incomplete and/or contain small errors, so don&rsquo;t hesitate to suggest corrections and improvements.</p>
 ]]></content:encoded>
     </item>
   </channel>

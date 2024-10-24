@@ -1,112 +1,191 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
 	<meta name="generator" content="Hugo 0.134.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>No Silver Bullet</title>
-<meta
-  name="title"
-  content="No Silver Bullet"
-/>
-<meta
-  name="description"
-  content=""
-/>
-<meta
-  name="keywords"
-  content="career,experiences,"
-/>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>No Silver Bullet | No Silver Bullet</title>
+<meta name="title" content="No Silver Bullet" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+<meta name="keywords" content="career,experiences," />
 
 
 
 
-<meta property="og:url" content="http://localhost:1313/">
+
+
+  
+  <meta property="og:url" content="http://localhost:1313/">
   <meta property="og:site_name" content="No Silver Bullet">
   <meta property="og:title" content="No Silver Bullet">
+  <meta property="og:description" content="Hello, welcome to No Silver Bullet.
+Here you will find records of my journey as a developer and anything else that I find interesting. Use it well :)">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
 
-
-
-
+  
+  
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="No Silver Bullet">
+  <meta name="twitter:description" content="Hello, welcome to No Silver Bullet.
+Here you will find records of my journey as a developer and anything else that I find interesting. Use it well :)">
+      <meta name="twitter:site" content="@el_yawd">
 
 
-
-
-
+  
+  
   <meta itemprop="name" content="No Silver Bullet">
+  <meta itemprop="description" content="Hello, welcome to No Silver Bullet.
+Here you will find records of my journey as a developer and anything else that I find interesting. Use it well :)">
   <meta itemprop="datePublished" content="2024-06-05T23:05:53-03:00">
   <meta itemprop="dateModified" content="2024-06-05T23:05:53-03:00">
+  <meta itemprop="wordCount" content="28">
+
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
-    
-    <link href="/simple.min.css" rel="stylesheet" />
+  
+  <link href="/original.min.css" rel="stylesheet">
 
-    
-    <link href="/style.min.css" rel="stylesheet" />
-
-    
-
-    <link rel="alternate" type="application/rss+xml" href="/index.xml" title="No Silver Bullet" />
-    
-</head>
-
-  <body>
-    <header>
-      <nav>
-  <a
-    href="/"
-    class="current"
-    >Home</a
-  >
-
-  <a
-    href="/blog/"
-    
-    >Blog</a
-  >
-
-
-  <a href="/index.xml">
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 448 512">
-      
-      <path
-        d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
-      />
-    </svg>
-    RSS
-  </a>
-
-</nav>
-
-<h1>No Silver Bullet</h1>
-
-
-    </header>
-    <main>
-      
   
 
-    </main>
-    <footer>
-      
-  <span>© 2024 Diego Reis</span>
+  
+
+  <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="No Silver Bullet" />
+  
+</head>
+
+<body>
+  <header><a class="skip-link" href="#main-content">Skip to main content</a>
+
+<a href="/" class="title"><h1>No Silver Bullet</h1></a>
+<nav>
+  <a href="/">Home</a>
+
+  <a href="/about/">About</a>
+
+  <a href="/blog/">Blog</a>
+
+<a href='http://localhost:1313/index.xml'>RSS</a>
 
 
-  <span>
-    |
-    Made with
-    <a href="https://github.com/maolonglong/hugo-simple/">Hugo ʕ•ᴥ•ʔ Simple</a>
-  </span>
 
 
-    </footer>
+  
+
+
+
+
+  
+    <a href="/pt-br/"></a>
+  
+
+</nav>
+</header>
+  <main id="main-content">
+<p>Hello, welcome to <em>No Silver Bullet</em>.</p>
+<p>Here you will find records of my journey as a developer and anything else
+that I find interesting. Use it well :)</p>
+<div>
+    <style>
+        #grid td {
+            width: 20px;
+             
+            height: 20px;
+             
+            border: 1px solid #ddd;
+             
+        }
+    
+        .alive {
+            background-color: black;
+             
+        }
+    </style>
+<table id="grid"></table>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+            const width = 20;
+            const height = 10;
+            const interval = 200;
+
+            let grid = initializeGrid();
+
+            function initializeGrid() {
+                const grid = [];
+                for (let i = 0; i < height; i++) {
+                    grid[i] = Array.from({ length: width }, () => Math.random() > 0.7 ? 1 : 0);
+                }
+                return grid;
+            }
+
+            function updateGrid() {
+                const newGrid = [];
+                for (let i = 0; i < height; i++) {
+                    newGrid[i] = [];
+                    for (let j = 0; j < width; j++) {
+                        const neighbors = countNeighbors(i, j);
+                        if (grid[i][j] === 1) {
+                            newGrid[i][j] = neighbors === 2 || neighbors === 3 ? 1 : 0;
+                        } else {
+                            newGrid[i][j] = neighbors === 3 ? 1 : 0;
+                        }
+                    }
+                }
+                grid = newGrid;
+            }
+
+            function countNeighbors(x, y) {
+                let count = 0;
+                for (let i = -1; i <= 1; i++) {
+                    for (let j = -1; j <= 1; j++) {
+                        const neighborX = x + i;
+                        const neighborY = y + j;
+                        if (neighborX >= 0 && neighborX < height && neighborY >= 0 && neighborY < width) {
+                            count += grid[neighborX][neighborY];
+                        }
+                    }
+                }
+                count -= grid[x][y];
+                return count;
+            }
+
+            function renderGrid() {
+                const table = document.getElementById("grid");
+                table.innerHTML = "";
+
+                for (let i = 0; i < height; i++) {
+                    const row = document.createElement("tr");
+                    for (let j = 0; j < width; j++) {
+                        const cell = document.createElement("td");
+                        cell.className = grid[i][j] === 1 ? "alive" : "";
+                        row.appendChild(cell);
+                    }
+                    table.appendChild(row);
+                }
+            }
+
+            function iterate() {
+                updateGrid();
+                renderGrid();
+                setTimeout(iterate, interval);
+            }
+
+            iterate();
+        });
+</script>
+</div>
+
+
+  </main>
+  <footer><small>
+  | © 2024 Diego Reis  | 
+</small></footer>
 
     
 </body>
+
 </html>

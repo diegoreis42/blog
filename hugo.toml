@@ -1,11 +1,11 @@
 baseURL = 'https://blog.diegoreis.me/'
-languageCode = 'pt-BR'
+languageCode = 'en'
 title = 'No Silver Bullet'
-theme = 'hugo-simple'
-copyright = "© 2024 Diego Reis"
+theme = 'hugo-bearcub'
+copyright = "| © 2024 Diego Reis "
+defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-
 
 # https://github.com/gohugoio/hugo/issues/12152
 capitalizeListTitles = false
@@ -20,7 +20,6 @@ tag = "tags"
 blog = "/:slugorfilename/"
 tags = "/blog/:slug"
 
-
 [languages]
 [languages.pt-br]
 contentDir = 'content/pt-br'
@@ -33,6 +32,9 @@ weight = 10
 [[languages.pt-br.menu.main]]
 name = "Blog"
 pageRef = "/blog"
+[[languages.pt-br.menu.main]]
+name = "Sobre"
+pageRef = "/sobre"
 
 
 [languages.en]
@@ -47,3 +49,16 @@ weight = 10
 [[languages.en.menu.main]]
 name = "Blog"
 pageRef = "/blog"
+[[languages.en.menu.main]]
+name = "About"
+pageRef = "/about"
+
+
+[params.social]
+twitter = "el_yawd"
+github = "diegoreis42"
+
+
+[params.author]
+name = "Diego Reis"
+email = "reisdiego144@gmail.com"

@@ -1,6 +1,5 @@
 +++
 title = 'First Freelance'
-subtitle = 'Learnings'
 date = 2024-06-05T23:05:53-03:00
 author = 'Diego Reis'
 tags = [

@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>No Silver Bullet</title>
+    <title>Posts on No Silver Bullet</title>
     <link>http://localhost:1313/pt-br/blog/</link>
-    <description>Recent content on No Silver Bullet</description>
+    <description>Recent content in Posts on No Silver Bullet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <copyright>© 2024 Diego Reis</copyright>
+    <managingEditor>reisdiego144@gmail.com (Diego Reis)</managingEditor>
+    <webMaster>reisdiego144@gmail.com (Diego Reis)</webMaster>
+    <copyright>| © 2024 Diego Reis </copyright>
     <lastBuildDate>Wed, 05 Jun 2024 23:05:53 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/pt-br/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Primeiro Freela</title>
       <link>http://localhost:1313/pt-br/primeiro-freela/</link>
-      <pubDate>Wed, 05 Jun 2024 23:05:53 -0300</pubDate>
+      <pubDate>Wed, 05 Jun 2024 23:05:53 -0300</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
       <guid>http://localhost:1313/pt-br/primeiro-freela/</guid>
-      <description>&lt;p&gt;Esse é meu primeiro blog post, então se você está lendo isso, obrigado! A ideia
-é fazer posts assim regularmente, documentando um pouco a minha experiência como
-estudante de Ciência da Computação entrando no mercado de trabalho. Mas vamos
-ao que interessa: como foi meu primeiro &lt;em&gt;&amp;lsquo;freela&amp;rsquo;&lt;/em&gt; e as lições que tive com ele.&lt;/p&gt;
-&lt;h2 id=&#34;definição-de-freela&#34;&gt;Definição de Freela&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Freela é todo trabalho remunerado, de escopo fechado, que quem paga e quem faz o serviço não possuem vínculo trabalhista&amp;rdquo;
-&amp;ndash; Eu&lt;/p&gt;</description>
+      <description>&lt;p&gt;Esse é meu primeiro blog post, então se você está lendo isso, obrigado! A ideia&#xA;é fazer posts assim regularmente, documentando um pouco a minha experiência como&#xA;estudante de Ciência da Computação entrando no mercado de trabalho. Mas vamos&#xA;ao que interessa: como foi meu primeiro &lt;em&gt;&amp;lsquo;freela&amp;rsquo;&lt;/em&gt; e as lições que tive com ele.&lt;/p&gt;&#xA;&lt;h2 id=&#34;definição-de-freela&#34;&gt;Definição de Freela&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Freela é todo trabalho remunerado, de escopo fechado, que quem paga e quem faz o serviço não possuem vínculo trabalhista&amp;rdquo;&#xA;&amp;ndash; Eu&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Esse é meu primeiro blog post, então se você está lendo isso, obrigado! A ideia
 é fazer posts assim regularmente, documentando um pouco a minha experiência como
 estudante de Ciência da Computação entrando no mercado de trabalho. Mas vamos

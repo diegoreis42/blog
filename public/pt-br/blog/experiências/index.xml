@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>No Silver Bullet</title>
+    <title>experiências on No Silver Bullet</title>
     <link>http://localhost:1313/pt-br/blog/experi%C3%AAncias/</link>
-    <description>Recent content on No Silver Bullet</description>
+    <description>Recent content in experiências on No Silver Bullet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <copyright>© 2024 Diego Reis</copyright>
+    <managingEditor>reisdiego144@gmail.com (Diego Reis)</managingEditor>
+    <webMaster>reisdiego144@gmail.com (Diego Reis)</webMaster>
+    <copyright>| © 2024 Diego Reis </copyright>
     <lastBuildDate>Wed, 05 Jun 2024 23:05:53 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/pt-br/blog/experi%C3%AAncias/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Primeiro Freela</title>
       <link>http://localhost:1313/pt-br/primeiro-freela/</link>
-      <pubDate>Wed, 05 Jun 2024 23:05:53 -0300</pubDate>
+      <pubDate>Wed, 05 Jun 2024 23:05:53 -0300</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
       <guid>http://localhost:1313/pt-br/primeiro-freela/</guid>
-      <description>&lt;p&gt;Esse é meu primeiro blog post, então se você está lendo isso, obrigado! A ideia
-é fazer posts assim regularmente, documentando um pouco a minha experiência como
-estudante de Ciência da Computação entrando no mercado de trabalho. Mas vamos
-ao que interessa: como foi meu primeiro &lt;em&gt;&amp;lsquo;freela&amp;rsquo;&lt;/em&gt; e as lições que tive com ele.&lt;/p&gt;
-&lt;h2 id=&#34;definição-de-freela&#34;&gt;Definição de Freela&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Freela é todo trabalho remunerado, de escopo fechado, que quem paga e quem faz o serviço não possuem vínculo trabalhista&amp;rdquo;
-&amp;ndash; Eu&lt;/p&gt;</description>
+      <description>&lt;p&gt;Esse é meu primeiro blog post, então se você está lendo isso, obrigado! A ideia&#xA;é fazer posts assim regularmente, documentando um pouco a minha experiência como&#xA;estudante de Ciência da Computação entrando no mercado de trabalho. Mas vamos&#xA;ao que interessa: como foi meu primeiro &lt;em&gt;&amp;lsquo;freela&amp;rsquo;&lt;/em&gt; e as lições que tive com ele.&lt;/p&gt;&#xA;&lt;h2 id=&#34;definição-de-freela&#34;&gt;Definição de Freela&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Freela é todo trabalho remunerado, de escopo fechado, que quem paga e quem faz o serviço não possuem vínculo trabalhista&amp;rdquo;&#xA;&amp;ndash; Eu&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Esse é meu primeiro blog post, então se você está lendo isso, obrigado! A ideia
 é fazer posts assim regularmente, documentando um pouco a minha experiência como
 estudante de Ciência da Computação entrando no mercado de trabalho. Mas vamos
@@ -51,7 +46,7 @@ aparecer depois de uma data não estavam aparecendo. Simples não? Foram esses <
 <h2 id="soluções">Soluções</h2>
 <p>Evidentemente não vou entrar nos detalhes que eu gostaria por que o código não é meu, mas basicamente
 o primeiro problema estava relacionado com a construção de um objeto de data, quebrei um pouco a cabeça mas foi relativamente
-tranquilo. O segundo foi <em>trickyer</em>, estava relacionada com a query que o back-end estava fazendo pra uma determinada rota. Agora
+tranquilo. O segundo foi <em>trickier</em>, estava relacionada com a query que o back-end estava fazendo pra uma determinada rota. Agora
 como cheguei neles? Onde acertei? E principalmente, onde errei?</p>
 <h2 id="aprendizados">Aprendizados</h2>
 <h2 id="1-se-atente-ao-problema">1. Se Atente ao problema</h2>
@@ -61,16 +56,10 @@ Trabalhar com o código feito por outra pessoa é uma coisa engraçada, e sem d�
 outro dev. Fazer isso não é fácil - na verdade a dificuldade depende de vários fatores, mas isso é tema pra outro dia -, e pode demorar
 de alguns dias até meses, eu não tinha esse tempo todo. Quando percebi que estava tentando entender o código de cada página ao invés de
 focar na página que apresentava o problema, tive que pivotar a abordagem.</p>
-<p>Situações como essa, onde se tem uma task muito específica, requerem uma abordagem muito específica. O que na realidade é muito mais simples
+<p>Tasks muito específicas, requerem abordagens muito específicas. O que na realidade é muito mais simples
 do que parece; você não precisa desenvolver algo novo ou refazer todo o código, só resolver aquele pequeno problema. O que nos leva ao próximo
 aprendizado.</p>
-<h2 id="2-não-tenha-medo-de-novas-stacks">2. Não tenha medo de novas stacks</h2>
-<p>Como você pôde ver pelo meu background, nunca tinha trabalhado com nenhuma dessas tecnologias, mas independente delas: o protocolo HTTP é o mesmo,
-o modelo de <em>front-end -&gt; back-end -&gt; banco de dados</em> é o mesmo, o modelo do Laravel de controllers, services, repositórios, interfaces não é
-muito diferente do Nestjs ou do Spring boot. Enfim, tecnologias mainstream são bem mais parecidas do que se imagina.</p>
-<p>Dessa forma, se você aprendeu bem o problema que determinada ferramenta se propôs a resolver, você consegue entender as variações dessa ferramenta
-e as diferentes formas que elas resolvem o mesmo problema.</p>
-<h2 id="3-crie-e-teste-hipóteses">3. Crie e teste hipóteses</h2>
+<h2 id="2-crie-e-teste-hipóteses">2. Crie e teste hipóteses</h2>
 <p>Uma lição mais prática. O método científico[1] se aplica excepcionalmente bem em sessões de debug; por exemplo, o sistema apresenta um comportamento
 inesperado, após vasculhar logs, requisições, ou qualquer rastro que te dê algum indício deste comportamento, você:</p>
 <ol>
@@ -85,14 +74,17 @@ você vai aprender algo novo, e não se esqueça:</p>
 <p>&ldquo;Eliminando o impossível, o que sobra, por mais improvável que seja, é a verdade.&rdquo;
 &ndash; Mr. Spock</p>
 </blockquote>
+<h2 id="3-não-tenha-medo-de-novas-stacks">3. Não tenha medo de novas stacks</h2>
+<p>Como você pôde ver pelo meu background, nunca tinha trabalhado com nenhuma dessas tecnologias, mas independente delas: o protocolo HTTP é o mesmo,
+o modelo de <em>front-end -&gt; back-end -&gt; banco de dados</em> é o mesmo, o modelo do Laravel de controllers, services, repositórios, interfaces não é
+muito diferente do Nestjs ou do Spring boot. Enfim, tecnologias mainstream são bem mais parecidas do que se imagina.</p>
+<p>Dessa forma, se você aprendeu bem o problema que determinada ferramenta se propôs a resolver, você consegue entender as variações dessa ferramenta
+e as diferentes formas que elas resolvem o mesmo problema.</p>
 <h2 id="4-assuma-riscos">4. Assuma riscos!</h2>
 <p>Por fim, assuma riscos! Estou dizendo pra apostar no macaco no próximo jogo do bixo? Não! Ou pra emprestar dinheiro pro teu parente finalmente abrir
 sua loja de sal do himalaia? Muito menos. Estou dizendo que se colocar em situações em que não se tem muito a perder, mas muito a ganhar, sempre é
 vantajoso[2], mesmo que você pense que não está 100% preparado (só não me vá chamar o popó no ringue). Cada oportunidade que te tira da zona de conforto
 é uma oportunidade de ser melhor.</p>
-<h1 id="conclusão">Conclusão</h1>
-<p>Obrigado por ler até aqui. Espero que esta minha experiência tenha te ajudado de alguma forma. Se sim, sinta-se livre para compartilhar esse post :)
-Estou sempre a disposição pra trocar ideia. Até mais e obrigado pelos peixes.</p>
 <h4 id="notas">Notas</h4>
 <ol>
 <li>
