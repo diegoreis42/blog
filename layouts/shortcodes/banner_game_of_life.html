@@ -10,26 +10,48 @@
         }
     
         .alive {
-            background-color: black;
+            background-color: gray;
             /* Color for alive cells */
         }
     </style>
 <table id="grid"></table>
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-            const width = 20;
-            const height = 10;
-            const interval = 200;
+            const width = 37;
+            const height = 15;
+            const interval = 100;
 
             let grid = initializeGrid();
 
             function initializeGrid() {
-                const grid = [];
-                for (let i = 0; i < height; i++) {
-                    grid[i] = Array.from({ length: width }, () => Math.random() > 0.7 ? 1 : 0);
-                }
-                return grid;
+            const grid = [];
+            for (let i = 0; i < height; i++) {
+                grid[i] = Array.from({ length: width }, () => 0); // Initialize with all dead cells
             }
+
+            // Gosper Glider Gun pattern
+            const gun = [
+                [5, 1], [5, 2], [6, 1], [6, 2],
+                [5, 11], [6, 11], [7, 11],
+                [4, 12], [8, 12], [3, 13], [9, 13], [3, 14], [9, 14],
+                [6, 15],
+                [4, 16], [8, 16],
+                [5, 17], [6, 17], [7, 17],
+                [6, 18],
+                [3, 21], [4, 21], [5, 21],
+                [3, 22], [4, 22], [5, 22],
+                [2, 23], [6, 23],
+                [1, 25], [2, 25], [6, 25], [7, 25],
+                [3, 35], [4, 35], [3, 36], [4, 36]
+            ];
+
+            // Set the cells for the gun as alive
+            gun.forEach(([x, y]) => {
+                grid[x][y] = 1;
+            });
+
+            return grid;
+        }
 
             function updateGrid() {
                 const newGrid = [];

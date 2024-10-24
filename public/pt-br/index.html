@@ -22,7 +22,8 @@
   <meta property="og:site_name" content="No Silver Bullet">
   <meta property="og:title" content="No Silver Bullet">
   <meta property="og:description" content="Olá, bem-vindo ao No Silver Bullet.
-Aqui você vai encontrar registros da minha trajetória como desenvolvedor e qualquer outra coisa que eu achar interessante. Fique a vontade e faça bom uso :)">
+Aqui você vai encontrar registros da minha trajetória como desenvolvedor e qualquer outra coisa que eu achar interessante. Fique a vontade e faça bom uso :)
+Esse é o padrão gosper glider gun, o meu favorito do jogo da vida do conway">
   <meta property="og:locale" content="pt_br">
   <meta property="og:type" content="website">
 
@@ -32,7 +33,8 @@ Aqui você vai encontrar registros da minha trajetória como desenvolvedor e qua
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="No Silver Bullet">
   <meta name="twitter:description" content="Olá, bem-vindo ao No Silver Bullet.
-Aqui você vai encontrar registros da minha trajetória como desenvolvedor e qualquer outra coisa que eu achar interessante. Fique a vontade e faça bom uso :)">
+Aqui você vai encontrar registros da minha trajetória como desenvolvedor e qualquer outra coisa que eu achar interessante. Fique a vontade e faça bom uso :)
+Esse é o padrão gosper glider gun, o meu favorito do jogo da vida do conway">
       <meta name="twitter:site" content="@el_yawd">
 
 
@@ -40,10 +42,11 @@ Aqui você vai encontrar registros da minha trajetória como desenvolvedor e qua
   
   <meta itemprop="name" content="No Silver Bullet">
   <meta itemprop="description" content="Olá, bem-vindo ao No Silver Bullet.
-Aqui você vai encontrar registros da minha trajetória como desenvolvedor e qualquer outra coisa que eu achar interessante. Fique a vontade e faça bom uso :)">
+Aqui você vai encontrar registros da minha trajetória como desenvolvedor e qualquer outra coisa que eu achar interessante. Fique a vontade e faça bom uso :)
+Esse é o padrão gosper glider gun, o meu favorito do jogo da vida do conway">
   <meta itemprop="datePublished" content="2024-06-05T23:05:53-03:00">
   <meta itemprop="dateModified" content="2024-06-05T23:05:53-03:00">
-  <meta itemprop="wordCount" content="32">
+  <meta itemprop="wordCount" content="48">
 
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -89,6 +92,121 @@ Aqui você vai encontrar registros da minha trajetória como desenvolvedor e qua
 <p>Olá, bem-vindo ao <em>No Silver Bullet</em>.</p>
 <p>Aqui você vai encontrar registros da minha trajetória como desenvolvedor e qualquer outra coisa
 que eu achar interessante. Fique a vontade e faça bom uso :)</p>
+<div>
+    <style>
+        #grid td {
+            width: 20px;
+             
+            height: 20px;
+             
+            border: 1px solid #ddd;
+             
+        }
+    
+        .alive {
+            background-color: gray;
+             
+        }
+    </style>
+<table id="grid"></table>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+            const width = 37;
+            const height = 15;
+            const interval = 100;
+
+            let grid = initializeGrid();
+
+            function initializeGrid() {
+            const grid = [];
+            for (let i = 0; i < height; i++) {
+                grid[i] = Array.from({ length: width }, () => 0); 
+            }
+
+            
+            const gun = [
+                [5, 1], [5, 2], [6, 1], [6, 2],
+                [5, 11], [6, 11], [7, 11],
+                [4, 12], [8, 12], [3, 13], [9, 13], [3, 14], [9, 14],
+                [6, 15],
+                [4, 16], [8, 16],
+                [5, 17], [6, 17], [7, 17],
+                [6, 18],
+                [3, 21], [4, 21], [5, 21],
+                [3, 22], [4, 22], [5, 22],
+                [2, 23], [6, 23],
+                [1, 25], [2, 25], [6, 25], [7, 25],
+                [3, 35], [4, 35], [3, 36], [4, 36]
+            ];
+
+            
+            gun.forEach(([x, y]) => {
+                grid[x][y] = 1;
+            });
+
+            return grid;
+        }
+
+            function updateGrid() {
+                const newGrid = [];
+                for (let i = 0; i < height; i++) {
+                    newGrid[i] = [];
+                    for (let j = 0; j < width; j++) {
+                        const neighbors = countNeighbors(i, j);
+                        if (grid[i][j] === 1) {
+                            newGrid[i][j] = neighbors === 2 || neighbors === 3 ? 1 : 0;
+                        } else {
+                            newGrid[i][j] = neighbors === 3 ? 1 : 0;
+                        }
+                    }
+                }
+                grid = newGrid;
+            }
+
+            function countNeighbors(x, y) {
+                let count = 0;
+                for (let i = -1; i <= 1; i++) {
+                    for (let j = -1; j <= 1; j++) {
+                        const neighborX = x + i;
+                        const neighborY = y + j;
+                        if (neighborX >= 0 && neighborX < height && neighborY >= 0 && neighborY < width) {
+                            count += grid[neighborX][neighborY];
+                        }
+                    }
+                }
+                count -= grid[x][y];
+                return count;
+            }
+
+            function renderGrid() {
+                const table = document.getElementById("grid");
+                table.innerHTML = "";
+
+                for (let i = 0; i < height; i++) {
+                    const row = document.createElement("tr");
+                    for (let j = 0; j < width; j++) {
+                        const cell = document.createElement("td");
+                        cell.className = grid[i][j] === 1 ? "alive" : "";
+                        row.appendChild(cell);
+                    }
+                    table.appendChild(row);
+                }
+            }
+
+            function iterate() {
+                updateGrid();
+                renderGrid();
+                setTimeout(iterate, interval);
+            }
+
+            iterate();
+        });
+</script>
+</div>
+<blockquote>
+<p>Esse é o padrão <a href="https://conwaylife.com/wiki/Gosper_glider_gun">gosper glider gun</a>, o meu
+favorito do jogo da vida do conway</p>
+</blockquote>
 
 
   </main>

@@ -22,7 +22,8 @@
   <meta property="og:site_name" content="No Silver Bullet">
   <meta property="og:title" content="No Silver Bullet">
   <meta property="og:description" content="Hello, welcome to No Silver Bullet.
-Here you will find records of my journey as a developer and anything else that I find interesting. Use it well :)">
+Here you will find records of my journey as a developer and anything else that I find interesting. Use it well :)
+This is a gosper glider gun, my favorite game of life pattern">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
@@ -32,7 +33,8 @@ Here you will find records of my journey as a developer and anything else that I
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="No Silver Bullet">
   <meta name="twitter:description" content="Hello, welcome to No Silver Bullet.
-Here you will find records of my journey as a developer and anything else that I find interesting. Use it well :)">
+Here you will find records of my journey as a developer and anything else that I find interesting. Use it well :)
+This is a gosper glider gun, my favorite game of life pattern">
       <meta name="twitter:site" content="@el_yawd">
 
 
@@ -40,10 +42,11 @@ Here you will find records of my journey as a developer and anything else that I
   
   <meta itemprop="name" content="No Silver Bullet">
   <meta itemprop="description" content="Hello, welcome to No Silver Bullet.
-Here you will find records of my journey as a developer and anything else that I find interesting. Use it well :)">
+Here you will find records of my journey as a developer and anything else that I find interesting. Use it well :)
+This is a gosper glider gun, my favorite game of life pattern">
   <meta itemprop="datePublished" content="2024-06-05T23:05:53-03:00">
   <meta itemprop="dateModified" content="2024-06-05T23:05:53-03:00">
-  <meta itemprop="wordCount" content="28">
+  <meta itemprop="wordCount" content="40">
 
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -101,26 +104,48 @@ that I find interesting. Use it well :)</p>
         }
     
         .alive {
-            background-color: black;
+            background-color: gray;
              
         }
     </style>
 <table id="grid"></table>
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-            const width = 20;
-            const height = 10;
-            const interval = 200;
+            const width = 37;
+            const height = 15;
+            const interval = 100;
 
             let grid = initializeGrid();
 
             function initializeGrid() {
-                const grid = [];
-                for (let i = 0; i < height; i++) {
-                    grid[i] = Array.from({ length: width }, () => Math.random() > 0.7 ? 1 : 0);
-                }
-                return grid;
+            const grid = [];
+            for (let i = 0; i < height; i++) {
+                grid[i] = Array.from({ length: width }, () => 0); 
             }
+
+            
+            const gun = [
+                [5, 1], [5, 2], [6, 1], [6, 2],
+                [5, 11], [6, 11], [7, 11],
+                [4, 12], [8, 12], [3, 13], [9, 13], [3, 14], [9, 14],
+                [6, 15],
+                [4, 16], [8, 16],
+                [5, 17], [6, 17], [7, 17],
+                [6, 18],
+                [3, 21], [4, 21], [5, 21],
+                [3, 22], [4, 22], [5, 22],
+                [2, 23], [6, 23],
+                [1, 25], [2, 25], [6, 25], [7, 25],
+                [3, 35], [4, 35], [3, 36], [4, 36]
+            ];
+
+            
+            gun.forEach(([x, y]) => {
+                grid[x][y] = 1;
+            });
+
+            return grid;
+        }
 
             function updateGrid() {
                 const newGrid = [];
@@ -178,6 +203,10 @@ that I find interesting. Use it well :)</p>
         });
 </script>
 </div>
+<blockquote>
+<p>This is a <a href="https://conwaylife.com/wiki/Gosper_glider_gun">gosper glider gun</a>, my favorite
+game of life pattern</p>
+</blockquote>
 
 
   </main>
