@@ -89,18 +89,38 @@ you can understand variations of such tools, and the different was that these va
 ]]></content:encoded>
     </item>
     <item>
-      <title>About</title>
+      <title>Abouts</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h4 id=&#34;about-the-name&#34;&gt;About the name&lt;/h4&gt;&#xA;&lt;p&gt;The name of this blog comes from the excellent paper &lt;a href=&#34;https://www.cs.dartmouth.edu/~cs50/Reading/NoSilverBullet.pdf&#34;&gt;&lt;em&gt;&amp;lsquo;No Silver Bullet—Essence and Accident in Software Engineering&amp;rsquo;&lt;/em&gt;&lt;/a&gt; by Fred Brooks that defines the principle of many concepts that I value, especially that if we want better software we need better developers and people, no tool will do magic.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Hence, although I strongly support the technology-transfer and curriculumdevelopment efforts now under way, I think the most important single effort we can mount is to develop ways to grow great designers.&amp;rdquo; - Fred Brooks&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<h4 id="about-the-name">About the name</h4>
+      <description>&lt;h3 id=&#34;about-the-name&#34;&gt;About the name&lt;/h3&gt;&#xA;&lt;p&gt;The name of this blog comes from the excellent paper &lt;a href=&#34;https://www.cs.dartmouth.edu/~cs50/Reading/NoSilverBullet.pdf&#34;&gt;&lt;em&gt;&amp;lsquo;No Silver Bullet—Essence and Accident in Software Engineering&amp;rsquo;&lt;/em&gt;&lt;/a&gt; by Fred Brooks that defines the principle of many concepts that I value, especially that if we want better software we need better developers and people, no tool will do magic.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Hence, although I strongly support the technology-transfer and curriculumdevelopment efforts now under way, I think the most important single effort we can mount is to develop ways to grow great designers.&amp;rdquo; - Fred Brooks&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h3 id="about-the-name">About the name</h3>
 <p>The name of this blog comes from the excellent paper <a href="https://www.cs.dartmouth.edu/~cs50/Reading/NoSilverBullet.pdf"><em>&lsquo;No Silver Bullet—Essence and Accident in Software Engineering&rsquo;</em></a> by Fred Brooks that defines the principle of many concepts that I value, especially that if we want better software we need better developers and people, no tool will do magic.</p>
 <blockquote>
 <p>&ldquo;Hence, although I strongly support the technology-transfer and curriculumdevelopment efforts now under way, I think the most important single effort we can mount is to develop ways to grow great designers.&rdquo; - Fred Brooks</p>
 </blockquote>
-<h4 id="about-me">About me</h4>
-<p>My name is Diego Reis, I&rsquo;m a Computer Science student at Itajubá Federal University and I currently work as a Junior back-end developer at a consulting firm. I&rsquo;m very interested in <del>almost</del> any topic involving computing, I love helping other people, running in the late afternoon and trying new things.</p>
+<h3 id="about-me">About me</h3>
+<p>My name is Diego Reis, I&rsquo;m a Computer Science student at Itajubá Federal University and I currently work as a Junior back-end developer at a consulting firm.
+I&rsquo;m very interested in <del>almost</del> any topic involving computing, I love helping other people, running in the late afternoon and trying new things. Currently my
+main interests are:</p>
+<ul>
+<li>Bitcoin</li>
+<li>Distributed Systems</li>
+<li>Databases</li>
+<li>Functional Programming Languages</li>
+</ul>
+<h3 id="fun-facts">Fun Facts</h3>
+<ol>
+<li>I already worked as a waiter in bars, restaurants, clubs and in my university&rsquo;s cafeteria.</li>
+</ol>
+<p><img alt="I&rsquo;m the attending guy right there!" src="/lanchonete.png"></p>
+<ol start="2">
+<li>
+<p>I was theme of a famous brazilian news. Basically I make a raffle of my grandfather&rsquo;s books
+to make some money to go to a book event called bienal. Here is the <a href="https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2016/09/estudante-rifa-livros-escritos-pelo-avo-para-ir-bienal-do-livro-em-sao-paulo.html">article</a></p>
+</li>
+<li></li>
+</ol>
 <p>You can reach me on:</p>
 <ul>
 <li><a href="https://x.com/el_yawd"> X (twitter) </a></li>

@@ -11,7 +11,23 @@ O nome desse blog vêm do excelente paper do Fred Brooks [_'No Silver Bullet—E
 
 ## Sobre mim
 
-Me chamo Diego Reis sou estudante de Ciência da Computação na federal de Itajubá e atualmente trabalho como desenvolvedor back-end JR em uma consultoria ai. Sou muito interessado por ~quase~ qualquer tópico que envolva computação, adoro ajudar outras pessoas, correr no final da tarde e tentar coisas novas.
+Me chamo Diego Reis sou estudante de Ciência da Computação na federal de Itajubá e atualmente trabalho como desenvolvedor back-end JR em uma consultoria ai. Sou muito interessado por ~quase~ qualquer tópico que envolva computação, adoro ajudar outras pessoas, correr no final da tarde e tentar coisas novas. Atualmente
+meus principais interesses são:
+
+- Bitcoin
+- Sistemas Distribuidos
+- Banco de Dados
+- Linguagens Funcionais
+  
+## Fun Facts
+
+1. Eu já trabalhei como garçom em bares, restaurantes, clubes e na lanchonete da minha universidade.
+
+![Estou atendendo um cara logo ali!](/lanchonete.png)
+
+2. Já fui tema de uma matéria no G1. Basicamente eu fiz uma rifa com os livros do meu avô para juntar dinheiro pra conseguir ir na bienal. Aqui a [matéria](https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2016/09/estudante-rifa-livros-escritos-pelo-avo-para-ir-bienal-do-livro-em-sao-paulo.html)
+
+3. Sou MUITO fã de [paçoca](https://pt.wikipedia.org/wiki/Pa%C3%A7oca_de_amendoim)
 
 Você pode me encontrar no:
 
