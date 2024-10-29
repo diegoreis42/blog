@@ -2,14 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/pt-br/blog/carreira/</loc>
-    <lastmod>2024-06-05T23:05:53-03:00</lastmod>
+    <loc>http://localhost:1313/pt-br/listas/blogs/</loc>
+    <lastmod>2024-10-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pt-br/blog/experi%C3%AAncias/</loc>
-    <lastmod>2024-06-05T23:05:53-03:00</lastmod>
+    <loc>http://localhost:1313/pt-br/listas/recursos-computacao/</loc>
+    <lastmod>2024-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pt-br/listas/livros/</loc>
+    <lastmod>2024-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pt-br/listas/</loc>
+    <lastmod>2024-10-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pt-br/</loc>
-    <lastmod>2024-06-05T23:05:53-03:00</lastmod>
+    <lastmod>2024-10-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -20,6 +26,12 @@
                 hreflang="pt-br"
                 href="http://localhost:1313/pt-br/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/pt-br/blog/carreira/</loc>
+    <lastmod>2024-06-05T23:05:53-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pt-br/blog/experi%C3%AAncias/</loc>
+    <lastmod>2024-06-05T23:05:53-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pt-br/blog/</loc>
     <lastmod>2024-06-05T23:05:53-03:00</lastmod>
