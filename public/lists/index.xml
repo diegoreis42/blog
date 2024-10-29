@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>lists on No Silver Bullet</title>
+    <link>http://localhost:1313/lists/</link>
+    <description>Recent content in lists on No Silver Bullet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>reisdiego144@gmail.com (Diego Reis)</managingEditor>
+    <webMaster>reisdiego144@gmail.com (Diego Reis)</webMaster>
+    <copyright>| © 2024 Diego Reis </copyright>
+    <lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/lists/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>List of awesome blogs</title>
+      <link>http://localhost:1313/lists/blogs/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
+      <guid>http://localhost:1313/lists/blogs/</guid>
+      <description>&lt;h4 id=&#34;computing&#34;&gt;Computing&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://brooker.co.za/blog/&#34;&gt;Marc&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.the-paper-trail.org/&#34;&gt;The Paper Trail&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://allthingsdistributed.com/articles.html&#34;&gt;All Things Distributed&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jvns.ca/&#34;&gt;Julia Evans&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://scottaaronson.blog/&#34;&gt;Shtetl-Optimized&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blog.acolyer.org/&#34;&gt;the morning paper&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://paulgraham.com/articles.html&#34;&gt;Paul Graham&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://noghartt.dev/blog/&#34;&gt;Noghartt&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.akitaonrails.com/&#34;&gt;AkitaOnRails&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<h4 id="computing">Computing</h4>
+<ul>
+<li><a href="https://brooker.co.za/blog/">Marc&rsquo;s Blog</a></li>
+<li><a href="https://www.the-paper-trail.org/">The Paper Trail</a></li>
+<li><a href="https://allthingsdistributed.com/articles.html">All Things Distributed</a></li>
+<li><a href="https://jvns.ca/">Julia Evans</a></li>
+<li><a href="https://scottaaronson.blog/">Shtetl-Optimized</a></li>
+<li><a href="https://blog.acolyer.org/">the morning paper</a></li>
+<li><a href="https://paulgraham.com/articles.html">Paul Graham</a></li>
+<li><a href="https://noghartt.dev/blog/">Noghartt</a></li>
+<li><a href="https://www.akitaonrails.com/">AkitaOnRails</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>List of awesome books</title>
+      <link>http://localhost:1313/lists/books/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
+      <guid>http://localhost:1313/lists/books/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>List of Computer Science Resources</title>
+      <link>http://localhost:1313/lists/cs-resources/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
+      <guid>http://localhost:1313/lists/cs-resources/</guid>
+      <description>&lt;h2 id=&#34;distributed-systems&#34;&gt;Distributed Systems&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://lamport.azurewebsites.net/&#34;&gt;Leslie &lt;del&gt;the goat&lt;/del&gt; Lamport&amp;rsquo;s website&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;open-source&#34;&gt;Open Source&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aosabook.org/en/&#34;&gt;The Architecture of Open Source Applications&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<h2 id="distributed-systems">Distributed Systems</h2>
+<ul>
+<li><a href="https://lamport.azurewebsites.net/">Leslie <del>the goat</del> Lamport&rsquo;s website</a></li>
+</ul>
+<h2 id="open-source">Open Source</h2>
+<ul>
+<li><a href="https://aosabook.org/en/">The Architecture of Open Source Applications</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
