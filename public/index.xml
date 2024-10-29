@@ -9,8 +9,48 @@
     <managingEditor>reisdiego144@gmail.com (Diego Reis)</managingEditor>
     <webMaster>reisdiego144@gmail.com (Diego Reis)</webMaster>
     <copyright>| © 2024 Diego Reis </copyright>
-    <lastBuildDate>Wed, 05 Jun 2024 23:05:53 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>List of awesome blogs</title>
+      <link>http://localhost:1313/lists/blogs/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
+      <guid>http://localhost:1313/lists/blogs/</guid>
+      <description>&lt;h4 id=&#34;computing&#34;&gt;Computing&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://brooker.co.za/blog/&#34;&gt;Marc&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.the-paper-trail.org/&#34;&gt;The Paper Trail&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://allthingsdistributed.com/articles.html&#34;&gt;All Things Distributed&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jvns.ca/&#34;&gt;Julia Evans&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://scottaaronson.blog/&#34;&gt;Shtetl-Optimized&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blog.acolyer.org/&#34;&gt;the morning paper&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://paulgraham.com/articles.html&#34;&gt;Paul Graham&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://noghartt.dev/blog/&#34;&gt;Noghartt&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.akitaonrails.com/&#34;&gt;AkitaOnRails&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<h4 id="computing">Computing</h4>
+<ul>
+<li><a href="https://brooker.co.za/blog/">Marc&rsquo;s Blog</a></li>
+<li><a href="https://www.the-paper-trail.org/">The Paper Trail</a></li>
+<li><a href="https://allthingsdistributed.com/articles.html">All Things Distributed</a></li>
+<li><a href="https://jvns.ca/">Julia Evans</a></li>
+<li><a href="https://scottaaronson.blog/">Shtetl-Optimized</a></li>
+<li><a href="https://blog.acolyer.org/">the morning paper</a></li>
+<li><a href="https://paulgraham.com/articles.html">Paul Graham</a></li>
+<li><a href="https://noghartt.dev/blog/">Noghartt</a></li>
+<li><a href="https://www.akitaonrails.com/">AkitaOnRails</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>List of awesome books</title>
+      <link>http://localhost:1313/lists/books/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
+      <guid>http://localhost:1313/lists/books/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>List of Computer Science Resources</title>
+      <link>http://localhost:1313/lists/cs-resources/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
+      <guid>http://localhost:1313/lists/cs-resources/</guid>
+      <description>&lt;h2 id=&#34;distributed-systems&#34;&gt;Distributed Systems&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://lamport.azurewebsites.net/&#34;&gt;Leslie &lt;del&gt;the goat&lt;/del&gt; Lamport&amp;rsquo;s website&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<h2 id="distributed-systems">Distributed Systems</h2>
+<ul>
+<li><a href="https://lamport.azurewebsites.net/">Leslie <del>the goat</del> Lamport&rsquo;s website</a></li>
+</ul>
+]]></content:encoded>
+    </item>
     <item>
       <title>First Freelance</title>
       <link>http://localhost:1313/first-freelance/</link>
@@ -93,13 +133,13 @@ you can understand variations of such tools, and the different was that these va
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h3 id=&#34;about-the-name&#34;&gt;About the name&lt;/h3&gt;&#xA;&lt;p&gt;The name of this blog comes from the excellent paper &lt;a href=&#34;https://www.cs.dartmouth.edu/~cs50/Reading/NoSilverBullet.pdf&#34;&gt;&lt;em&gt;&amp;lsquo;No Silver Bullet—Essence and Accident in Software Engineering&amp;rsquo;&lt;/em&gt;&lt;/a&gt; by Fred Brooks that defines the principle of many concepts that I value, especially that if we want better software we need better developers and people, no tool will do magic.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Hence, although I strongly support the technology-transfer and curriculumdevelopment efforts now under way, I think the most important single effort we can mount is to develop ways to grow great designers.&amp;rdquo; - Fred Brooks&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<h3 id="about-the-name">About the name</h3>
+      <description>&lt;h2 id=&#34;about-the-name&#34;&gt;About the name&lt;/h2&gt;&#xA;&lt;p&gt;The name of this blog comes from the excellent paper &lt;a href=&#34;https://www.cs.dartmouth.edu/~cs50/Reading/NoSilverBullet.pdf&#34;&gt;&lt;em&gt;&amp;lsquo;No Silver Bullet—Essence and Accident in Software Engineering&amp;rsquo;&lt;/em&gt;&lt;/a&gt; by Fred Brooks that defines the principle of many concepts that I value, especially that if we want better software we need better developers and people, no tool will do magic.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Hence, although I strongly support the technology-transfer and curriculumdevelopment efforts now under way, I think the most important single effort we can mount is to develop ways to grow great designers.&amp;rdquo; - Fred Brooks&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="about-the-name">About the name</h2>
 <p>The name of this blog comes from the excellent paper <a href="https://www.cs.dartmouth.edu/~cs50/Reading/NoSilverBullet.pdf"><em>&lsquo;No Silver Bullet—Essence and Accident in Software Engineering&rsquo;</em></a> by Fred Brooks that defines the principle of many concepts that I value, especially that if we want better software we need better developers and people, no tool will do magic.</p>
 <blockquote>
 <p>&ldquo;Hence, although I strongly support the technology-transfer and curriculumdevelopment efforts now under way, I think the most important single effort we can mount is to develop ways to grow great designers.&rdquo; - Fred Brooks</p>
 </blockquote>
-<h3 id="about-me">About me</h3>
+<h2 id="about-me">About me</h2>
 <p>My name is Diego Reis, I&rsquo;m a Computer Science student at Itajubá Federal University and I currently work as a Junior back-end developer at a consulting firm.
 I&rsquo;m very interested in <del>almost</del> any topic involving computing, I love helping other people, running in the late afternoon and trying new things. Currently my
 main interests are:</p>
@@ -109,7 +149,7 @@ main interests are:</p>
 <li>Databases</li>
 <li>Functional Programming Languages</li>
 </ul>
-<h3 id="fun-facts">Fun Facts</h3>
+<h2 id="fun-facts">Fun Facts</h2>
 <ol>
 <li>I already worked as a waiter in bars, restaurants, clubs and in my university&rsquo;s cafeteria.</li>
 </ol>
@@ -119,7 +159,9 @@ main interests are:</p>
 <p>I was theme of a famous brazilian news. Basically I make a raffle of my grandfather&rsquo;s books
 to make some money to go to a book event called bienal. Here is the <a href="https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2016/09/estudante-rifa-livros-escritos-pelo-avo-para-ir-bienal-do-livro-em-sao-paulo.html">article</a></p>
 </li>
-<li></li>
+<li>
+<p>I&rsquo;m a BIG <a href="https://en.wikipedia.org/wiki/Pa%C3%A7oca">paçoca</a> enjoyer.</p>
+</li>
 </ol>
 <p>You can reach me on:</p>
 <ul>
