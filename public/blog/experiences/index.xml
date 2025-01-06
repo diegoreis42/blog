@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>experiences on No Silver Bullet</title>
     <link>http://localhost:1313/blog/experiences/</link>
     <description>Recent content in experiences on No Silver Bullet</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>reisdiego144@gmail.com (Diego Reis)</managingEditor>
     <webMaster>reisdiego144@gmail.com (Diego Reis)</webMaster>
@@ -17,76 +17,6 @@
       <pubDate>Wed, 05 Jun 2024 23:05:53 -0300</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
       <guid>http://localhost:1313/first-freelance/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;This&amp;rsquo;s my first blog post, so if you&amp;rsquo;re reading this, thank you! The idea&#xA;is to write regularly, documenting a bit about my experience as a Computer Science&#xA;student getting into the job market.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s get straight to the point: how my first freelance went and what lessons I learned.&lt;/p&gt;&#xA;&lt;h2 id=&#34;freelance-definition&#34;&gt;Freelance Definition&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Freelance is all, closed-scope, paid work where there&amp;rsquo;s no employment relationship between the payer and the one getting the job done.&amp;rdquo;                          &amp;ndash; Me&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<blockquote>
-<p>This&rsquo;s my first blog post, so if you&rsquo;re reading this, thank you! The idea
-is to write regularly, documenting a bit about my experience as a Computer Science
-student getting into the job market.</p>
-</blockquote>
-<p>Let&rsquo;s get straight to the point: how my first freelance went and what lessons I learned.</p>
-<h2 id="freelance-definition">Freelance Definition</h2>
-<blockquote>
-<p>&ldquo;Freelance is all, closed-scope, paid work where there&rsquo;s no employment relationship between the payer and the one getting the job done.&rdquo;                          &ndash; Me</p>
-</blockquote>
-<h3 id="some-context">Some Context</h3>
-<p>I started learning web dev nearly a year ago, following the usual path: HTML, CSS,
-jumping to vanilla JS, then to React (which I later regretted — learning about &lsquo;addEventListener&rsquo; and other stuff first
-would’ve been helpful), Nodejs,  SQL, hot to develop basic REST APIs, a little bit of docker and most recently Java.</p>
-<p>Each project helped me to improve at some aspect: speed (in terms of delivery, not raw performance), maintainability,
-learning completely new stacks. I learned things on-demand and continue to live my life. In some of these projects I met
-a pretty nice guy who guided me to other roads of best development practices, the <del>infamous</del> clean code, and refactoring.</p>
-<p>This particularly project was a v2 of another project that this guy worked on. As the v2 still in a development phase,
-the v1 has been used and it about it that we gonna talk about.</p>
-<h3 id="problems">Problems</h3>
-<p>This project is a contest study platform, developed in Vue.js, PHP/Laravel and MySql (stacks that I never worked on).
-And it was having two major issues:</p>
-<ol>
-<li>A field that should highlight at a specific date was not working;</li>
-<li>Some options that should appear after a specific date was not showing up;</li>
-</ol>
-<p>Simple don&rsquo;t you think? That&rsquo;s was the two bugs that I was paid to fix.</p>
-<h2 id="solutions">Solutions</h2>
-<p>Unfortunately I can&rsquo;t show the source code as I like but basically the first problem as just a miss object constructor
-related with <code>moment.js</code>, the second was a trickier one, some obscure SQL query had a wrong conditional.</p>
-<p>But how I came to these solutions? What I did wrong? I most important, what I&rsquo;ve learned?</p>
-<h2 id="learnings">Learnings</h2>
-<h3 id="1-focus-on-the-problem">1. Focus on the problem</h3>
-<p>With no doubts my biggest mistake was trying to understand all the system at once, instead of focusing exclusively
-on the problems.</p>
-<p>Working with other people code it&rsquo;s a funny thing, and surely the most common scenario, you have to understand the <em>how&rsquo;s</em> and <em>why&rsquo;s</em>, explore components, modules and classes in such way to create a mental model of the system the most
-close as possible of the previous developer. Doing this it&rsquo;s not easy and can take days or even months, but I wont have too much time. When I realized that I was trying to understand the code of each page instead of focusing on the buggy page I pivoted.</p>
-<p>With specific tasks comes specific approaches. In reality is much simpler than it seems, there is no need to refactor
-all the code, just need to fix this tiny problem. What bring us to the next learning.</p>
-<h3 id="2-create-and-test-hypothesis">2. Create and test hypothesis</h3>
-<p>A practical lesson. The scientific method[1] applies exceptionally well in debug sessions. For instance,
-a system as some unexpected behavior, after digging into the logs, requests, and any trail of the bug, you:</p>
-<ol>
-<li>Create a hypothesis about the reason of the current behavior;</li>
-<li>Create a test scenario that makes your hypothesis fail;</li>
-<li>Repeat;</li>
-</ol>
-<p>I particularly have a great time doing this kind of things, I feel like a crime detective in the crime scene, or more
-precisely a mechanic fixing a car already &ldquo;fixed&rdquo; by another mechanic. Create hypothesis, test, repeat, and be curious. At least you going to learn something new, and don&rsquo;t forget:</p>
-<blockquote>
-<p>&ldquo;When you have eliminated the impossible whatever remains, however improbable, must be the Truth&rdquo;
-&ndash; Mr. Spock</p>
-</blockquote>
-<h3 id="3-dont-be-afraid-of-new-stacks">3. Don&rsquo;t be afraid of new stacks</h3>
-<p>As you could see about my background, I&rsquo;ve never has worked with any of the project techs, but besides these techs:</p>
-<ul>
-<li>The HTTP protocol is the same;</li>
-<li>The <em>front-end -&gt; back-end -&gt; database</em> model is the same;</li>
-<li>Laravel&rsquo;s structure with controllers, services and models is not too different of other web frameworks.</li>
-</ul>
-<p>Mainstream techs are more similar than we want to admit. So, if you learned the problem that a tool proposes to solve,
-you can understand variations of such tools, and the different was that these variations some the same problem.</p>
-<h3 id="4-take-risks">4. Take risks!</h3>
-<p>Last but not least, take risks! I&rsquo;m saying to bet on shitcoins? No! Or lend money to your relative open a snake oil store? <del>Maybe</del> NO! I&rsquo;m saying that putting yourself in situations that you have nothing to lose, but a lot to gain is always good[2], even if you think you&rsquo;re not 100% ready. Each opportunity that takes you off your comfort zone is a opportunity to improvement.</p>
-<h4 id="notes">Notes</h4>
-<ol>
-<li>A powerful concept, even routine in programming, is the Ockahm&rsquo;s razor, that says: &ldquo;[&hellip;] The simplest explanation is usually the best one&rdquo;. So, before checking for reace conditions or deadlocks, certify about that semicolon on line 67 :)</li>
-<li>For those who read Taleb&rsquo;s books that&rsquo;s the bread and butter of <em>antifragility</em>, I recommend any of Nassim&rsquo;s book.</li>
-</ol>
-]]></content:encoded>
     </item>
   </channel>
 </rss>

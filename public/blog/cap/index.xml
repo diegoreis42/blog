@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on No Silver Bullet</title>
-    <link>http://localhost:1313/blog/</link>
-    <description>Recent content in Posts on No Silver Bullet</description>
+    <title>CAP on No Silver Bullet</title>
+    <link>http://localhost:1313/blog/cap/</link>
+    <description>Recent content in CAP on No Silver Bullet</description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>reisdiego144@gmail.com (Diego Reis)</managingEditor>
     <webMaster>reisdiego144@gmail.com (Diego Reis)</webMaster>
     <copyright>| © 2024 Diego Reis </copyright>
     <lastBuildDate>Fri, 03 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/cap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First-to-basics: Computer Systems Design</title>
       <link>http://localhost:1313/idk/</link>
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
       <guid>http://localhost:1313/idk/</guid>
       <description>&lt;p&gt;Some days ago I was reading the awesome blog &lt;a href=&#34;https://www.allthingsdistributed.com&#34;&gt;All Things Distributed&lt;/a&gt; from the goat Werner Vogels, and the series &lt;em&gt;Back-to-Basics&lt;/em&gt; in particular caught my attention, it is basically some classical CS papers that Vogels considers important to know. In addition, other great&#xA;blog, &lt;a href=&#34;https://avi.im/blag/&#34;&gt;blag&lt;/a&gt;, also has some posts about good papers, so why can&amp;rsquo;t we have one too?&lt;/p&gt;&#xA;&lt;p&gt;First-to-basics aims to be a series of posts about CS concepts using classical papers and very good resources that I tripped during my quest for knowledge. As I am very early, I gonna try to give as much context as possible and walk through the topics the better I can.&#xA;Without further ado&amp;hellip;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>First Freelance</title>
-      <link>http://localhost:1313/first-freelance/</link>
-      <pubDate>Wed, 05 Jun 2024 23:05:53 -0300</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
-      <guid>http://localhost:1313/first-freelance/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;This&amp;rsquo;s my first blog post, so if you&amp;rsquo;re reading this, thank you! The idea&#xA;is to write regularly, documenting a bit about my experience as a Computer Science&#xA;student getting into the job market.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s get straight to the point: how my first freelance went and what lessons I learned.&lt;/p&gt;&#xA;&lt;h2 id=&#34;freelance-definition&#34;&gt;Freelance Definition&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Freelance is all, closed-scope, paid work where there&amp;rsquo;s no employment relationship between the payer and the one getting the job done.&amp;rdquo;                          &amp;ndash; Me&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

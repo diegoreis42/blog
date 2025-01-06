@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>No Silver Bullet</title>
     <link>http://localhost:1313/pt-br/</link>
     <description>Recent content on No Silver Bullet</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>pt-br</language>
     <managingEditor>reisdiego144@gmail.com (Diego Reis)</managingEditor>
     <webMaster>reisdiego144@gmail.com (Diego Reis)</webMaster>
@@ -17,19 +17,6 @@
       <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
       <guid>http://localhost:1313/pt-br/listas/blogs/</guid>
       <description>&lt;h4 id=&#34;computação&#34;&gt;Computação&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://brooker.co.za/blog/&#34;&gt;Marc&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.the-paper-trail.org/&#34;&gt;The Paper Trail&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://allthingsdistributed.com/articles.html&#34;&gt;All Things Distributed&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jvns.ca/&#34;&gt;Julia Evans&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://scottaaronson.blog/&#34;&gt;Shtetl-Optimized&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blog.acolyer.org/&#34;&gt;the morning paper&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://paulgraham.com/articles.html&#34;&gt;Paul Graham&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://noghartt.dev/blog/&#34;&gt;Noghartt&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.akitaonrails.com/&#34;&gt;AkitaOnRails&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-      <content:encoded><![CDATA[<h4 id="computação">Computação</h4>
-<ul>
-<li><a href="https://brooker.co.za/blog/">Marc&rsquo;s Blog</a></li>
-<li><a href="https://www.the-paper-trail.org/">The Paper Trail</a></li>
-<li><a href="https://allthingsdistributed.com/articles.html">All Things Distributed</a></li>
-<li><a href="https://jvns.ca/">Julia Evans</a></li>
-<li><a href="https://scottaaronson.blog/">Shtetl-Optimized</a></li>
-<li><a href="https://blog.acolyer.org/">the morning paper</a></li>
-<li><a href="https://paulgraham.com/articles.html">Paul Graham</a></li>
-<li><a href="https://noghartt.dev/blog/">Noghartt</a></li>
-<li><a href="https://www.akitaonrails.com/">AkitaOnRails</a></li>
-</ul>
-]]></content:encoded>
     </item>
     <item>
       <title>Lista de fontes em Computação</title>
@@ -37,15 +24,6 @@
       <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
       <guid>http://localhost:1313/pt-br/listas/recursos-computacao/</guid>
       <description>&lt;h2 id=&#34;sistemas-distribuidos&#34;&gt;Sistemas Distribuidos&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://lamport.azurewebsites.net/&#34;&gt;Site do Leslie &lt;del&gt;o brabo&lt;/del&gt; Lamport&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;open-source&#34;&gt;Open Source&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aosabook.org/en/&#34;&gt;The Architecture of Open Source Applications&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-      <content:encoded><![CDATA[<h2 id="sistemas-distribuidos">Sistemas Distribuidos</h2>
-<ul>
-<li><a href="https://lamport.azurewebsites.net/">Site do Leslie <del>o brabo</del> Lamport</a></li>
-</ul>
-<h2 id="open-source">Open Source</h2>
-<ul>
-<li><a href="https://aosabook.org/en/">The Architecture of Open Source Applications</a></li>
-</ul>
-]]></content:encoded>
     </item>
     <item>
       <title>Lista de livros</title>
@@ -53,7 +31,6 @@
       <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
       <guid>http://localhost:1313/pt-br/listas/livros/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Primeiro Freela</title>
@@ -61,86 +38,6 @@
       <pubDate>Wed, 05 Jun 2024 23:05:53 -0300</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
       <guid>http://localhost:1313/pt-br/primeiro-freela/</guid>
       <description>&lt;p&gt;Esse é meu primeiro blog post, então se você está lendo isso, obrigado! A ideia&#xA;é fazer posts assim regularmente, documentando um pouco a minha experiência como&#xA;estudante de Ciência da Computação entrando no mercado de trabalho. Mas vamos&#xA;ao que interessa: como foi meu primeiro &lt;em&gt;&amp;lsquo;freela&amp;rsquo;&lt;/em&gt; e as lições que tive com ele.&lt;/p&gt;&#xA;&lt;h2 id=&#34;definição-de-freela&#34;&gt;Definição de Freela&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Freela é todo trabalho remunerado, de escopo fechado, que quem paga e quem faz o serviço não possuem vínculo trabalhista&amp;rdquo;&#xA;&amp;ndash; Eu&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Esse é meu primeiro blog post, então se você está lendo isso, obrigado! A ideia
-é fazer posts assim regularmente, documentando um pouco a minha experiência como
-estudante de Ciência da Computação entrando no mercado de trabalho. Mas vamos
-ao que interessa: como foi meu primeiro <em>&lsquo;freela&rsquo;</em> e as lições que tive com ele.</p>
-<h2 id="definição-de-freela">Definição de Freela</h2>
-<blockquote>
-<p>&ldquo;Freela é todo trabalho remunerado, de escopo fechado, que quem paga e quem faz o serviço não possuem vínculo trabalhista&rdquo;
-&ndash; Eu</p>
-</blockquote>
-<h2 id="contexto">Contexto</h2>
-<p>Comecei a estudar web dev a aproximadamente 1 ano, fiz o caminho default: HTML, CSS,
-pulei o JS vanilla pra ir direto pro React (depois me arrependi e aprendi os addEventListener
-da vida), Nodejs, SQL, desenvolver APIs REST, um cadinho de docker e mais recentemente Java.
-Cada projeto nesse meio tempo me ajudou a melhorar algum ponto em específico, alguns o requerimento
-era velocidade - de entrega não performance bruta - outros era a mantenabilidade, alguns eu nem sabia
-a stack antes de começar, aprendi o que precisava sob demanda e toquei o barco. Em um desses projetos
-conheci um brother muito gente fina que me guiou sobre as famosas questões de boas práticas, o <del>famigerado</del>
-clean code e refatoração; esse projeto em específico era o back-end da V2 de outro projeto que ele tinha feito antes.
-Como o front-end desta V2 está em desenvolvimento, a V1 ainda está sendo utilizada, e é sobre ela que falaremos mais hoje.</p>
-<h2 id="mais-contexto">Mais Contexto</h2>
-<p>Este projeto é uma plataforma de estudos para concurso, na versão mais recente utilizamos Next.js no front-end e
-microsserviços com Nestjs, Postgres e mais recentemente Kafka no back-end. A versão antiga foi desenvolvida
-com Vue.js, PHP/Laravel (nada contra, tenho até parentes que são) e MySql. Isso é importante por que quero que você
-entenda a situação que me encontrei, as lições vão fazer mais sentido.</p>
-<p>A V1 estava com 2 problemas: um campo que deveria dar highlight em uma determinada data não estava, e opções que deveriam
-aparecer depois de uma data não estavam aparecendo. Simples não? Foram esses <em>bugs</em> que me pediram pra consertar.</p>
-<h2 id="soluções">Soluções</h2>
-<p>Evidentemente não vou entrar nos detalhes que eu gostaria por que o código não é meu, mas basicamente
-o primeiro problema estava relacionado com a construção de um objeto de data, quebrei um pouco a cabeça mas foi relativamente
-tranquilo. O segundo foi <em>trickier</em>, estava relacionada com a query que o back-end estava fazendo pra uma determinada rota. Agora
-como cheguei neles? Onde acertei? E principalmente, onde errei?</p>
-<h2 id="aprendizados">Aprendizados</h2>
-<h2 id="1-se-atente-ao-problema">1. Se Atente ao problema</h2>
-<p>Meu maior erro foi sem dúvidas tentar entender o sistema inteiro de uma vez, ao invés de focar única e exclusivamente nos problemas.
-Trabalhar com o código feito por outra pessoa é uma coisa engraçada, e sem dúvidas o cenário mais comum; você precisa entender os &ldquo;comos&rdquo; e
-&ldquo;porquês&rdquo;, explorar os componentes, módulos e classes de forma a tentar criar um modelo mental do sistema o mais próximo possível do
-outro dev. Fazer isso não é fácil - na verdade a dificuldade depende de vários fatores, mas isso é tema pra outro dia -, e pode demorar
-de alguns dias até meses, eu não tinha esse tempo todo. Quando percebi que estava tentando entender o código de cada página ao invés de
-focar na página que apresentava o problema, tive que pivotar a abordagem.</p>
-<p>Tasks muito específicas, requerem abordagens muito específicas. O que na realidade é muito mais simples
-do que parece; você não precisa desenvolver algo novo ou refazer todo o código, só resolver aquele pequeno problema. O que nos leva ao próximo
-aprendizado.</p>
-<h2 id="2-crie-e-teste-hipóteses">2. Crie e teste hipóteses</h2>
-<p>Uma lição mais prática. O método científico[1] se aplica excepcionalmente bem em sessões de debug; por exemplo, o sistema apresenta um comportamento
-inesperado, após vasculhar logs, requisições, ou qualquer rastro que te dê algum indício deste comportamento, você:</p>
-<ol>
-<li>Cria um hipótese da razão deste comportamento;</li>
-<li>Encontre um caso de teste que faça sua hipótese falhar;</li>
-<li>Reavalie;</li>
-</ol>
-<p>Eu acho particularmente divertido fazer este tipo de coisa, me sinto um detetive vasculhando a cena do crime - ou mais precisamente um mecânico
-consertando um carro já consertado por outro mecânico, que o pegou montado por um primo -. Crie hipóteses, teste, revise, e vasculhe. No mínimo
-você vai aprender algo novo, e não se esqueça:</p>
-<blockquote>
-<p>&ldquo;Eliminando o impossível, o que sobra, por mais improvável que seja, é a verdade.&rdquo;
-&ndash; Mr. Spock</p>
-</blockquote>
-<h2 id="3-não-tenha-medo-de-novas-stacks">3. Não tenha medo de novas stacks</h2>
-<p>Como você pôde ver pelo meu background, nunca tinha trabalhado com nenhuma dessas tecnologias, mas independente delas: o protocolo HTTP é o mesmo,
-o modelo de <em>front-end -&gt; back-end -&gt; banco de dados</em> é o mesmo, o modelo do Laravel de controllers, services, repositórios, interfaces não é
-muito diferente do Nestjs ou do Spring boot. Enfim, tecnologias mainstream são bem mais parecidas do que se imagina.</p>
-<p>Dessa forma, se você aprendeu bem o problema que determinada ferramenta se propôs a resolver, você consegue entender as variações dessa ferramenta
-e as diferentes formas que elas resolvem o mesmo problema.</p>
-<h2 id="4-assuma-riscos">4. Assuma riscos!</h2>
-<p>Por fim, assuma riscos! Estou dizendo pra apostar no macaco no próximo jogo do bixo? Não! Ou pra emprestar dinheiro pro teu parente finalmente abrir
-sua loja de sal do himalaia? Muito menos. Estou dizendo que se colocar em situações em que não se tem muito a perder, mas muito a ganhar, sempre é
-vantajoso[2], mesmo que você pense que não está 100% preparado (só não me vá chamar o popó no ringue). Cada oportunidade que te tira da zona de conforto
-é uma oportunidade de ser melhor.</p>
-<h4 id="notas">Notas</h4>
-<ol>
-<li>
-<p>Um conceito bem poderoso, e até rotineiro na programação, é a navalha de Ockham, que postula: &ldquo;[&hellip;] de múltiplas explicações
-adequadas e possíveis para o mesmo conjunto de fatos, deve-se optar pela mais simples daquelas&rdquo;. Antes de caçar races conditions ou deadlocks, verifique
-aquela vírgula no final da linha :)</p>
-</li>
-<li>
-<p>Para quem leu os livros do Taleb isso é o arroz com feijão da &ldquo;antifragilidade&rdquo;, recomendo qualquer livro do Nassim.</p>
-</li>
-</ol>
-]]></content:encoded>
     </item>
     <item>
       <title>Sobre</title>
@@ -148,41 +45,6 @@ aquela vírgula no final da linha :)</p>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>reisdiego144@gmail.com (Diego Reis)</author>
       <guid>http://localhost:1313/pt-br/sobre/</guid>
       <description>&lt;h2 id=&#34;sobre-o-nome&#34;&gt;Sobre o nome&lt;/h2&gt;&#xA;&lt;p&gt;O nome desse blog vêm do excelente paper do Fred Brooks &lt;a href=&#34;https://www.cs.dartmouth.edu/~cs50/Reading/NoSilverBullet.pdf&#34;&gt;&lt;em&gt;&amp;lsquo;No Silver Bullet—Essence and Accident in Software Engineering&amp;rsquo;&lt;/em&gt;&lt;/a&gt; que define o princípio de muitos conceitos que eu valorizo, sobretudo que se quisermos softwares melhores precisamos de desenvolvedores e pessoas melhores, nenhuma ferramenta vai fazer mágica.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Hence, although I strongly support the technology-transfer and curriculumdevelopment efforts now under way, I think the most important single effort we can mount is to develop ways to grow great designers.&amp;rdquo;                                         - Fred Brooks&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<h2 id="sobre-o-nome">Sobre o nome</h2>
-<p>O nome desse blog vêm do excelente paper do Fred Brooks <a href="https://www.cs.dartmouth.edu/~cs50/Reading/NoSilverBullet.pdf"><em>&lsquo;No Silver Bullet—Essence and Accident in Software Engineering&rsquo;</em></a> que define o princípio de muitos conceitos que eu valorizo, sobretudo que se quisermos softwares melhores precisamos de desenvolvedores e pessoas melhores, nenhuma ferramenta vai fazer mágica.</p>
-<blockquote>
-<p>&ldquo;Hence, although I strongly support the technology-transfer and curriculumdevelopment efforts now under way, I think the most important single effort we can mount is to develop ways to grow great designers.&rdquo;                                         - Fred Brooks</p>
-</blockquote>
-<h2 id="sobre-mim">Sobre mim</h2>
-<p>Me chamo Diego Reis sou estudante de Ciência da Computação na federal de Itajubá e atualmente trabalho como desenvolvedor back-end JR em uma consultoria ai. Sou muito interessado por <del>quase</del> qualquer tópico que envolva computação, adoro ajudar outras pessoas, correr no final da tarde e tentar coisas novas. Atualmente
-meus principais interesses são:</p>
-<ul>
-<li>Bitcoin</li>
-<li>Sistemas Distribuidos</li>
-<li>Banco de Dados</li>
-<li>Linguagens Funcionais</li>
-</ul>
-<h2 id="fun-facts">Fun Facts</h2>
-<ol>
-<li>Eu já trabalhei como garçom em bares, restaurantes, clubes e na lanchonete da minha universidade.</li>
-</ol>
-<p><img alt="Estou atendendo um cara logo ali!" src="/lanchonete.png"></p>
-<ol start="2">
-<li>
-<p>Já fui tema de uma matéria no G1. Basicamente eu fiz uma rifa com os livros do meu avô para juntar dinheiro pra conseguir ir na bienal. Aqui a <a href="https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2016/09/estudante-rifa-livros-escritos-pelo-avo-para-ir-bienal-do-livro-em-sao-paulo.html">matéria</a></p>
-</li>
-<li>
-<p>Sou MUITO fã de <a href="https://pt.wikipedia.org/wiki/Pa%C3%A7oca_de_amendoim">paçoca</a></p>
-</li>
-</ol>
-<p>Você pode me encontrar no:</p>
-<ul>
-<li><a href="https://x.com/el_yawd"> X (twitter) </a></li>
-<li><a href="https://github.com/diegoreis42">Github</a></li>
-<li><a href="https://www.linkedin.com/in/diegovarella/">Linkedin</a></li>
-</ul>
-<p>Como estou bem no início da minha carreira posts mais técnicos podem ser incompletos e/ou conterem pequenos erros, então não hesite em sugerir correções e melhorias.</p>
-]]></content:encoded>
     </item>
   </channel>
 </rss>
